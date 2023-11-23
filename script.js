@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let container = document.querySelector(".container");
-let input1 = document.getElementById("player-1");
-let input2 = document.getElementById("player-2");
+let input1 = document.getElementById("player1");
+let input2 = document.getElementById("player2");
 let labels = document.querySelectorAll("label");
 let btn = document.getElementById("submit");
 let message = document.querySelector(".message");
