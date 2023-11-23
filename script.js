@@ -35,7 +35,7 @@ function onCellClick(event){
     if(event.target.innerText){
         return;
     }
-    event.target.innerText = playerInd == 1 ? "X" : "O";
+    event.target.innerText = playerInd == 1 ? "x" : "o";
     if(gameWin()){
         if(playerInd == 1){
             // console.log("Player 1 won");
